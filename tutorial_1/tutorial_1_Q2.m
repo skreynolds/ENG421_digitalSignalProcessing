@@ -11,11 +11,14 @@ t = 0:1/fs:dur;
 xx1 = sumcos([20], [1], fs, dur);
 figure(1)
 plot(t,xx1)
+title('Plot of Synthesis 1')
 
 xx2 = sumcos([20 40], [1 1/2], fs, dur);
 figure(2)
 plot(t,xx2)
+title('Plot of Synthesis 2')
 
 xx3 = sumcos([20 40 60 80], [1 -1 1 -1], fs, dur);
 figure(3)
 plot(t,xx3)
+title('Plot of Synthesis 3')
