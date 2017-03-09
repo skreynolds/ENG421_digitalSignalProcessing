@@ -8,8 +8,8 @@ z1 = -1 +j*0.3;
 z2 = 0.8 + j*0.7;
 
 figure(1)
-title('Question 2.1 (a) Plot')
 zvect([z1 z2])
+title('Question 2.1 (a) Plot')
 zprint([z1 z2])
 
 % (b) Find the conjugate and inverse for z1 and z2
@@ -21,8 +21,8 @@ z1_conj = conj(z1);
 z2_conj = conj(z2);
 
 figure(2)
-title('Question 2.1 (b) Plot')
 zvect([z1_inv z2_inv z1_conj z2_conj])
+title('Question 2.1 (b) Plot')
 zprint([z1_inv z2_inv z1_conj z2_conj])
 
 
@@ -32,8 +32,8 @@ zprint([z1_inv z2_inv z1_conj z2_conj])
 z_add = z1 + z2;
 
 figure(3)
-title('Question 2.1 (c) Plot')
 zvect([z_add])
+title('Question 2.1 (c) Plot')
 hold on
 zcat([z1 z2])
 zprint([z1 z2])
@@ -45,6 +45,6 @@ z_mult = z1*z2;
 z_div = z1/z2;
 
 figure(4)
-title('Question 2.1 (d) Plot')
 zvect([z_mult z_div])
+title('Question 2.1 (d) Plot')
 zprint([z_mult z_div])
