@@ -3,7 +3,7 @@
 clear; clc;
 
 % Initialise the parameters to be used for the script
-A = 100;
+A = 1;
 f440 = 440;
 
 % Specify the sampling frequency and sampling period

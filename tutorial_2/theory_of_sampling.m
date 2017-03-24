@@ -4,7 +4,7 @@
 clear; clc;
 
 % Specify the parameters for the task
-A = 100;
+A = 1;
 w0_1 = 2*pi*1100;
 ph_1 = 0;
 
