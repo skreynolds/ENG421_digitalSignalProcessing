@@ -17,6 +17,6 @@ function xx = mychirp(f1,f2,dur,fsamp)
     
     psi = 2*pi*(mu*tt.^2 + f0*tt + 100);
     
-    xx = real(7.7*exp(j*psi));
+    xx = real(exp(j*psi));
     
 end
