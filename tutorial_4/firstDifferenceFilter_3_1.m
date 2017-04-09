@@ -1,4 +1,5 @@
 %%%%%%%%%%%%%%%%% 3.2 First Difference Filter %%%%%%%%%%%%%%%%%%%
+% Code written by Shane Reynolds
 
 % Clear the workspace and any stored variables
 clear; clc;
