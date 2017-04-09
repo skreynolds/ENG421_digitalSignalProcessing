@@ -1,4 +1,5 @@
 %%%%%%%%% 2.1 Frequency Response of the Three-Point Averager %%%%%%%%%%%
+% Code written by Shane Reynolds
 
 % Clear the workspace and any stored variables
 clear; clc;
