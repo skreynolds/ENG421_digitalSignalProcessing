@@ -1,4 +1,4 @@
-%%%%%%%%%%%%% 3.2 First Difference Filter %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% 3.3 Linearity of the Filter %%%%%%%%%%%%%%%%%%
 
 % Clear the worksapce and any stored variables
 clear; clc;
