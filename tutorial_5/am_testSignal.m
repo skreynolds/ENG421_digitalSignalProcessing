@@ -13,15 +13,23 @@ fm = 100;
 Am = 0.8;
 mm = Am*cos(2*pi*fm*tt);
 
-modulated_signal = cc.*mm;
+modulated_signal = (1 + mm).*cc;
 
 figure(1)
 plot(tt(1:200),modulated_signal(1:200))
+hold on
+plot(tt(1:200),mm(1:200))
+legend('Modulated Signal','Message Signal')
+xlabel('time (sec)')
+ylabel('Amplitude')
 
 figure(2)
 subplot(3,1,1)
 showspec(mm,fs)
+title('Spectrum plot of Message Signal')
 subplot(3,1,2)
 showspec(cc,fs)
+title('Spectrum plot of Carrier Signal')
 subplot(3,1,3)
 showspec(modulated_signal,fs)
+title('Spectrum plot of Modulated Signal')
