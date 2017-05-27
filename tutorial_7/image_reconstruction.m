@@ -33,6 +33,8 @@ figure(5)
 plot(W,abs(H),'b')
 hold on
 plot(-W,abs(H),'b')
+xlabel('Frequency (rad)')
+ylabel('Amplitude')
 
 % Lowpass sinc function filter
 k = 0:22;
@@ -50,3 +52,5 @@ show_img(xs_filt,6)
 [H,W] = freqz(bkk);
 figure(7)
 plot(W,abs(H))
+xlabel('Frequency (rad)')
+ylabel('Amplitude')
